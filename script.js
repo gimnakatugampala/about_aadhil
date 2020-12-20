@@ -10,6 +10,7 @@ const score = document.getElementById('score');
 const loader = document.getElementById('loader');
 const container = document.getElementById('container');
 const domScore = document.getElementById('dom-score');
+const hud = document.getElementById('hud-item');
 
 //CONSTANTS
 let scoretext = 0;
@@ -90,6 +91,11 @@ function selectAnswer(e){
             startButton.innerText = 'Finish & Restart';
             domScore.innerText = `Your Score : ${scoretext}`;
             startButton.onclick = function(){
+                setTimeout(() =>{
+                    loader.classList.remove('hide')
+                    container.classList.add('hide');
+                    hud.classList.add('hide');
+                },1)
                 window.location.reload();
                     domScore.innerText = ''
             }

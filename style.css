@@ -18,7 +18,7 @@
 }
 
 body {
-  --hue: var(--hue-neutral);
+  /* --hue: var(--hue-neutral); */
   padding: 0;
   margin: 0;
   font-family: "Raleway", sans-serif;
@@ -28,15 +28,22 @@ body {
   width: 100vw;
   height: 100vh;
   background-color: hsl(var(--hue), 100%, 20%);
+  background-image: url("/img/3.jpeg");
+  /* background-color: rgba(255, 0, 0, 0.8); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   position: relative;
 }
 
 body.correct {
   --hue: var(--hue-correct);
+  background-image: none;
 }
 
 body.wrong {
   --hue: var(--hue-wrong);
+  background-image: none;
 }
 
 /*container*/
@@ -136,11 +143,16 @@ body.wrong {
 /*Load*/
 .loader {
   border: 16px solid #f3f3f3; /* Light grey */
-  border-top: 16px solid #3498db; /* Blue */
+  border-top: 16px solid transparent; /* Blue */
   border-radius: 50%;
   width: 120px;
   height: 120px;
   animation: spin 2s linear infinite;
+}
+
+.dom-score {
+  margin: 0;
+  padding: 0;
 }
 
 @keyframes spin {
