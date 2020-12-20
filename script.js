@@ -9,6 +9,7 @@ const questionCounter = document.getElementById('questionCounter');
 const score = document.getElementById('score');
 const loader = document.getElementById('loader');
 const container = document.getElementById('container');
+const domScore = document.getElementById('dom-score');
 
 //CONSTANTS
 let scoretext = 0;
@@ -48,7 +49,8 @@ function startGame(){
 
 function setNextQuestion(){
     resetState();
-    showQuestion(shuffleQuestions[currentQuestionIndex])
+    showQuestion(shuffleQuestions[currentQuestionIndex]);
+
 }
 
 function showQuestion(question){
@@ -85,9 +87,18 @@ function selectAnswer(e){
     if(shuffleQuestions.length > currentQuestionIndex + 1){
         nextButton.classList.remove('hide')
     }else{  
-            startButton.innerText = 'Finish';
+            startButton.innerText = 'Finish & Restart';
+            domScore.innerText = `Your Score : ${scoretext}`;
+            startButton.onclick = function(){
+                window.location.reload();
+                    domScore.innerText = ''
+            }
             startButton.classList.remove('hide')
-            score.innerText = 0;
+            
+            // setTimeout(() =>{
+            //     window.location.reload();
+            //     domScore.innerText = ''
+            // },3000)
     }
 
 }
