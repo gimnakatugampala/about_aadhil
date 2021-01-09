@@ -139,179 +139,174 @@ function clearStatusClass(element){
 
 const question = [
     {
-        questions:"Schoolmate that knows all his secrets ?",
+        questions:"Where does he hope to be in 10 years ?",
         answers:[
-            {text:'Teran',correct:false},
-            {text:'Migara',correct:true},
-            {text:'Sahassrika',correct:false},
-            {text:'Bryan',correct:false}
+            {text:'Living Outside Boaders',correct:false},
+            {text:'Owner of his own company',correct:true},
+            {text:'CEO of a Company',correct:false},
+            {text:'Chairman of a Company',correct:false}
         ]
     },
     {
-        questions:"Schoolmate that he loves talking to ?",
+        questions:"Best gift you ever recieved?",
         answers:[
-            {text:'Munaj',correct:false},
-            {text:'Roshan',correct:true},
-            {text:'Teran',correct:false},
-            {text:'Azmi',correct:false},
+            {text:'His Religion',correct:false},
+            {text:'Video of his friends wishing him on his 20th birthday.',correct:true},
+            {text:'His Friends',correct:false},
+            {text:'An Iphone',correct:false},
         ]
     },
     {
-        questions:"Is he Single or Taken ?",
+        questions:"What is his pet's name?",
         answers:[
-            {text:'Taken',correct:false},
-            {text:'Single',correct:true}
+            {text:'Charlie',correct:false},
+            {text:'Daisy',correct:false},
+            {text:'Max',correct:false},
+            {text:'Rex',correct:true}
         ]
     },
     {
-        questions:"How many girlfriends has he been with ?",
+        questions:"3 words to describe Him?",
         answers:[
-            {text:'3',correct:false},
-            {text:'5',correct:true},
-            {text:'4',correct:false},
-            {text:'6',correct:false}
+            {text:'Creative,Flexible,Experience',correct:false},
+            {text:'Hardworking,Honest,Energetic',correct:false},
+            {text:'Competetive,Interesting,lovable',correct:false},
+            {text:'Cool, Humble, Caring',correct:true}
         ]
     },
     {
-        questions:"An ex-girlfriend he is dreaming about ?",
+        questions:"If he had a superpower what would it be?",
         answers:[
-            {text:'Janool',correct:false},
-            {text:'Ayodhya',correct:false},
-            {text:'Jazla',correct:false},
-            {text:'Veena',correct:true}
+            {text:'Time travel',correct:true},
+            {text:'Telepotation',correct:false},
+            {text:'Flying',correct:false},
+            {text:'Mind Control',correct:false}
         ]
     },
     {
-        questions:"A Famous Person that he look up to ?",
+        questions:"A schoolmate he lookup to?",
         answers:[
-            {text:'James Neese',correct:true},
-            {text:'Jake Paul',correct:false},
-            {text:'Felix Kjellberg',correct:false},
-            {text:'Mr.Beast',correct:false}
-        ]
-    },
-    {
-        questions:"As Schoolmate that he look up to ?",
-        answers:[
-            {text:'Migara',correct:false},
+            {text:'Akash',correct:false},
             {text:'Bryan',correct:true},
             {text:'Sandro',correct:false},
             {text:'Roshan',correct:false}
         ]
     },
     {
-        questions:"Where does he Hope to be in 10 years ?",
+        questions:"A schoolmate that advice him?",
         answers:[
-            {text:'COO of a Company',correct:false},
-            {text:'CEO of a Company',correct:false},
-            {text:'A World Recognized Influncer',correct:false},
-            {text:'Founding and Running his own Bussiness',correct:true}
+            {text:'Bryan',correct:false},
+            {text:'Teran',correct:false},
+            {text:'Azmi',correct:false},
+            {text:'Rika',correct:true}
         ]
     },
     {
-        questions:"What type of girlfriend is he looking for ?",
+        questions:"A schoolmate that makes him laugh?",
         answers:[
-            {text:'One who understands him',correct:true},
-            {text:'One who is Attractive',correct:false},
-            {text:'One who is Intelligence',correct:false},
-            {text:'One who is Emotional',correct:false}
+            {text:'Roshan',correct:true},
+            {text:'Akash',correct:false},
+            {text:'Sandro',correct:false},
+            {text:'Munaj',correct:false}
         ]
     },
     {
-        questions:"Does he regret breaking up with 'Jazla' ?",
+        questions:"A schoolmate that inspire him?",
         answers:[
-            {text:'No',correct:false},
-            {text:'Yes',correct:true},
+            {text:'Roshan',correct:false},
+            {text:'Bryan',correct:false},
+            {text:'Sanduni',correct:false},
+            {text:'Sandro',correct:true},
         ]
     },
     {
-        questions:" What's the one thing people don't know about him?",
+        questions:"A famous person he look up to?",
         answers:[
-            {text:'Afraid of needles',correct:true},
-            {text:'Very Kind',correct:false},
-            {text:'A Genius',correct:false},
-            {text:'An Introvert',correct:false}
+            {text:'Dwayne Johnson',correct:true},
+            {text:'Maithripala Sirisena',correct:false},
+            {text:'Ranjan Ramanayake',correct:false},
+            {text:'Arnold Schwarzenegger',correct:false}
         ]
     },
     {
-        questions:" One incident that changed his life?",
+        questions:"One thing that he has that others don't have?",
         answers:[
-            {text:'A Motivational Speech that got him to be an Bussinessman',correct:false},
-            {text:'A lecture that drove him to Studying',correct:false},
-            {text:'A musical show that made me love and learn music.',correct:true},
-            {text:'Saw a Social Media Influnencer inspired to become one',correct:false}
+            {text:'love meditation ',correct:false},
+            {text:'Ability to work hard',correct:false},
+            {text:'Strength endure pain without losing himself.',correct:true},
+            {text:'He loves doing laundry',correct:false}
         ]
     },
     {
-        questions:"How many kids does he want to have ?",
+        questions:"Best advice he ever recieved?",
         answers:[
-            {text:'4',correct:false},
-            {text:'7',correct:false},
-            {text:'5',correct:false},
-            {text:'3',correct:true}
+            {text:'Do what you’re afraid to do',correct:false},
+            {text:'Life is all about managing expectations—most of all your own',correct:false},
+            {text:'Your life is your responsibility',correct:false},
+            {text:'No matter what others say the road will only get rough but never giveup or change yourself just be you and move forward.',correct:true}
         ]
     },
     {
-        questions:"Best gift he ever got ?",
+        questions:"An industry he is passinate about?",
         answers:[
             {text:'An Iphone',correct:false},
-            {text:'Friends',correct:true},
+            {text:'Finance',correct:true},
             {text:'A Laptop',correct:false},
             {text:'Great Education',correct:false}
         ]
     },
     {
-        questions:" All time Favorite School Memory ?",
+        questions:"A moment that changed his life?",
         answers:[
             {text:'Parents Meetings',correct:false},
             {text:'School Vacation day',correct:false},
-            {text:'Cutting classes and singing songs with friends at the school',correct:true},
+            {text:'Getting the interact club banned',correct:true},
             {text:'Getting punished',correct:false}
         ]
     },
     {
-        questions:"His Very First Crush ?",
+        questions:"His proudest mommet?",
         answers:[
-            {text:'Ishini',correct:true},
-            {text:'Ayodhya',correct:false},
-            {text:'Dewmi',correct:false},
-            {text:'Kaveesha',correct:false}
+            {text:'Hearing that im the best Games Captain of our school to date from our madam',correct:true},
+            {text:'Bought his mom a gift',correct:false},
+            {text:'Got good grade at O/Ls',correct:false},
+            {text:'Got Good grades at A/Ls',correct:false}
         ]
     },
     {
-        questions:"His First Real Love ?",
+        questions:"Best mentor he ever recieved?",
         answers:[
-            {text:'Veena',correct:false},
-            {text:'Ayodhya',correct:false},
-            {text:'Jazla',correct:true},
-            {text:'Janool',correct:false}
+            {text:'Priyangani Teacher',correct:false},
+            {text:'Thilini Teacher',correct:false},
+            {text:'Ruchira sir',correct:true},
+            {text:'Rukman Sir',correct:false}
         ]
     },
     {
-        questions:"His last Real Love (By Far)?",
+        questions:"A person he can't live without ?",
         answers:[
-            {text:'Ayodhya',correct:false},
-            {text:'Veena',correct:true},
-            {text:'Ishini',correct:false},
-            {text:'Janool',correct:false}
+            {text:'Sandro',correct:false},
+            {text:'Rika',correct:true},
+            {text:'Teran',correct:false},
+            {text:'Bryan',correct:false}
         ]
     },
     {
-        questions:"If he would change one thing about himself what would it be ?",
+        questions:"A bad habbit he still has?",
         answers:[
-            {text:'Ability to public speak',correct:true},
-            {text:'His Discipline',correct:false},
-            {text:'Ability to make friends',correct:false},
-            {text:'His ability learn',correct:false}
+            {text:'Getting angry',correct:true},
+            {text:'Arrogrance',correct:false},
+            {text:'Swearing',correct:false},
+            {text:'Fast Food',correct:false}
         ]
     },
     {
-        questions:"His Dream Job?",
+        questions:"A good habbit he has?",
         answers:[
-            {text:'Professional Gamer',correct:false},
-            {text:'Instagram Model',correct:false},
-            {text:'An Enterprenuer',correct:true},
-            {text:'HR Manager',correct:false}
+            {text:'Eat Healthy',correct:false},
+            {text:'Sleep On Time',correct:false},
+            {text:'Never Giveup on friends and always Taking Care of them',correct:true},
+            {text:'Be Responsible With Money',correct:false}
         ]
     },
 ]
